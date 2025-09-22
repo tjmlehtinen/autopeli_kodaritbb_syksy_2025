@@ -15,5 +15,6 @@ public class PlayerController : MonoBehaviour
     {
         float move = Input.GetAxis("Vertical") * speed * Time.deltaTime;
         float turn = Input.GetAxis("Horizontal") * turnSpeed * Time.deltaTime;
+        Debug.Log("move: " + move + " turn: " + turn);
     }
 }
