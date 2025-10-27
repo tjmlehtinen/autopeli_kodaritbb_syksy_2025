@@ -19,5 +19,9 @@ public class AICar : MonoBehaviour
         Vector3 targetXZ = new Vector3(target.position.x, transform.position.y, target.position.z);
         Vector3 direction = (targetXZ - transform.position).normalized;
         transform.Translate(direction * speed * Time.deltaTime);
+        if (Vector3.Distance(transform.position, targetXZ) < 1f)
+        {
+            nextIndex = (nextIndex + 1) % waypoints.Length;
+        }
     }
 }

@@ -1283,7 +1283,7 @@ PrefabInstance:
     - target: {fileID: 4199938617357945154, guid: 0898150f97b735744a1bf5f0eea0d4c7,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.1
+      value: 4.0999985
       objectReference: {fileID: 0}
     - target: {fileID: 4199938617357945154, guid: 0898150f97b735744a1bf5f0eea0d4c7,
         type: 3}
@@ -1303,17 +1303,17 @@ PrefabInstance:
     - target: {fileID: 4199938617357945154, guid: 0898150f97b735744a1bf5f0eea0d4c7,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4199938617357945154, guid: 0898150f97b735744a1bf5f0eea0d4c7,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4199938617357945154, guid: 0898150f97b735744a1bf5f0eea0d4c7,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4199938617357945154, guid: 0898150f97b735744a1bf5f0eea0d4c7,
         type: 3}
@@ -1820,7 +1820,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a582cab36b2dda24ab3ea891acdfbecb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waypoints: []
+  waypoints:
+  - {fileID: 1767477071}
+  - {fileID: 316491958}
+  - {fileID: 1875285937}
+  - {fileID: 1875863399}
+  - {fileID: 1107845217}
+  - {fileID: 2055269594}
+  - {fileID: 1575726172}
+  - {fileID: 843310387}
+  - {fileID: 1261335499}
+  - {fileID: 234182441}
+  - {fileID: 2101498042}
+  - {fileID: 1011399575}
+  - {fileID: 845056117}
+  - {fileID: 398262135}
+  - {fileID: 2084028306}
   speed: 10
 --- !u!1001 &1523834507
 PrefabInstance:
